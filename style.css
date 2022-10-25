@@ -1,8 +1,6 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: orange;
-    border: 1px solid black;
     padding: 20px;
     column-gap: 10px;
     height: 100vh;
@@ -13,6 +11,9 @@
     background-color: aqua;
     border: 1px solid black;
     margin-bottom: 1rem;
+    -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
 }
 
 .grid-container > #sidebar{
@@ -24,6 +25,9 @@
     background-color: rgb(193, 156, 228);
     border: 1px solid black;
     padding: 0px;
+    -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
 }
 
 .grid-container > div{
@@ -42,6 +46,9 @@
     border: 1px solid black;
     padding: 20px;
     column-gap: 10px;
+    -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
 }
 
 #content > div{
