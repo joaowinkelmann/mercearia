@@ -7,10 +7,11 @@
 }
 
 .grid-container > header{
+    height: 100px;
     grid-area: 1 / 2 / span 1 / span 3;
     background-color: aqua;
     border: 1px solid black;
-    margin-bottom: 1rem;
+    margin-bottom: -2.5rem;
     -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
     box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
@@ -28,6 +29,11 @@
     -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
     box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+}
+#logoP{
+    width: 65px;
+    height: 65px;
+    margin-top: 20px;
 }
 
 .grid-container > div{
@@ -56,4 +62,7 @@
     border: 1px solid black;
     padding: 20px;
     margin: 1rem;
+}
+.bg-light{
+    margin-top: 140px;
 }
