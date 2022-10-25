@@ -1,0 +1,52 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px;
+    column-gap: 10px;
+    height: 100vh;
+}
+
+.grid-container > header{
+    grid-area: 1 / 2 / span 1 / span 3;
+    background-color: aqua;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.grid-container > #sidebar{
+    grid-area: 1 / 1 / span 5 / span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: top;
+    background-color: rgb(193, 156, 228);
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.grid-container > div{
+    background-color: lightskyblue;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px; /*margem aplicada ao exterior do conteudo do grid*/
+}
+
+.grid-container > #content{
+    grid-area: 2 / 2 / span 4 / span 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightgreen ;
+    border: 1px solid black;
+    padding: 20px;
+    column-gap: 10px;
+}
+
+#content > div{
+    background-color: coral;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 1rem;
+}
