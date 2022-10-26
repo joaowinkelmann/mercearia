@@ -13,10 +13,14 @@ Caixa inicial: R$ 2.389,32
 
 DESPESAS:
 -Variáveis:
-    
+    Energia: R$ 2.879,00
+    Gasolina: R$ 659,54
+    agua: R$ 150,00
 
 -Fixas:
     Alugel: R$ 4.561,00
     Internet: R$ 99,00
     Contabilidade: R$ 600,00
     Impostos: (???) R$ 900,00
+    funcionario: R$ 2.500,00
+    
