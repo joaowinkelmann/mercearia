@@ -7,8 +7,16 @@
              'Planejamento'
           }
           
-          const Produtos = { template:
-             'Produtos'
+          const Produtos = { 
+              template: `
+              <h3>Produtos</h3>
+              <select class="form-select" id="product-select">
+                <option selected>Selecione o produto</option>
+                <option value="1">Bolo</option>
+                <option value="2">Cupcake</option>
+              </select>
+               
+            `
             }
           
           const Despesas = { 
