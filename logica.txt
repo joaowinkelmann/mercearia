@@ -13,7 +13,7 @@ Caixa inicial: R$ 2.389,32
 
 DESPESAS:
 -Variáveis:
-
+    
 
 -Fixas:
     Alugel: R$ 4.561,00

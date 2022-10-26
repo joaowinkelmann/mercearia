@@ -1,30 +1,29 @@
+/* #7900ac; #f5b000; #000000;  */
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 20px;
     column-gap: 10px;
     height: 100vh;
+    background-color: wheat;
 }
 
 .grid-container > header{
-    height: 100px;
     grid-area: 1 / 2 / span 1 / span 3;
-    background-color: aqua;
-    border: 1px solid black;
-    margin-bottom: -2.5rem;
+    background-color: #a193a7;
     -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
     box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
 }
 
 .grid-container > #sidebar{
-    grid-area: 1 / 1 / span 5 / span 1;
+    grid-area: 1 / 1 / span 7 / span 1;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: top;
-    background-color: rgb(193, 156, 228);
-    border: 1px solid black;
+    background-color: white;
     padding: 0px;
     -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
@@ -33,23 +32,36 @@
 #logoP{
     width: 65px;
     height: 65px;
-    margin-top: 20px;
+}
+
+#logoSite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5b000;
+    padding: 0.7rem ;
+}
+
+#headerTitulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+    padding: 20px;
 }
 
 .grid-container > div{
     background-color: lightskyblue;
-    border: 1px solid black;
     font-size: 20px;
     text-align: center;
     padding: 20px; /*margem aplicada ao exterior do conteudo do grid*/
 }
 
 .grid-container > #content{
-    grid-area: 2 / 2 / span 4 / span 3;
+    margin-top: 0.1rem;
+    grid-area: 2 / 2 / span 6 / span 3;
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: lightgreen ;
-    border: 1px solid black;
+    background-color: #82C0CC ;
     padding: 20px;
     column-gap: 10px;
     -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
@@ -65,4 +77,8 @@
 }
 .bg-light{
     margin-top: 140px;
+}
+#titulo{
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
 }

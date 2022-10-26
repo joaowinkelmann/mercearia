@@ -10,43 +10,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="bancoteste.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-  <script src="https://unpkg.com/vue@3"></script>
-  <script src="https://unpkg.com/vue-router@4"></script>
-  
-  <script>
-    const Home = { template: '<div>Home</div>' }
-    const Despesas = { template: '<div>About</div>' }
-    
-    const routes = [
-      { path: '/', component: Home },
-      { path: '/despesas', component: Despesas },
-    ]
-    
-    const router = VueRouter.createRouter({
-      history: VueRouter.createWebHashHistory(),
-      routes,
-    })
-    
-    const app = Vue.createApp({})
-    app.use(router)
-    
-    app.mount('#app')
-    
-    </script>
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <div class="container-fluid p-5 grid-container">
         <header id="headerTitulo">
           <div>
             <h1 id="titulo">Delícias da Vovó</h1>
           </div>
           <div>
-            <h2>Teste</h2>
+            <h1>Teste</h1>
           </div>
         </header>
         <div id="sidebar" class="container-fluid">
@@ -57,7 +31,7 @@
                 <div class="container-fluid">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <router-link to="/">Go to Home</router-link>
+                      <a class="nav-link" href="#">Dashboard</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Planejamento</a>
@@ -66,14 +40,16 @@
                       <a class="nav-link" href="#">Produtos</a>
                     </li>
                     <li class="nav-item">
-                      <router-link to="/despesas">Despesas</router-link>
+                      <a class="nav-link" href="#">Despesas</a>
                     </li>
                   </ul>
                 </div>
               </nav>
         </div>
         <div class="container-fluid" id="content">
-            <router-view></router-view>
+            <div>
+                <input type="text" name="despesa" id="despesa">
+            </div>
         </div>
 </body>
 </html>

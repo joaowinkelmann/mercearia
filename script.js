@@ -21,9 +21,9 @@ request.onupgradeneeded = function() {
 
 request.onsuccess = function (){
     const db = request.result;
-    const transacao = db.transaction("produto", "readwrite");
+    const transaction = db.transaction("produto", "readwrite");
 
-    const store = transacao.objectStore("produto");
+    const store = transaction.objectStore("produto");
     const indexNomeProd = store.index("nome_produto");
     const indexValorProd = store.index("valor_produto");
 
@@ -51,7 +51,7 @@ request.onsuccess = function (){
         console.log('puxarValor', puxarValor.result);
     };
 
-    transacao.oncomplete = function(){
+    transaction.oncomplete = function(){
         db.close();
     };
 }
