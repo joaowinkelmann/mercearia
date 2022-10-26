@@ -1,18 +1,24 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 20px;
+
     column-gap: 10px;
     height: 100vh;
-    background-color: wheat;
+    background-color: rgb(223, 223, 223);
 }
 
 .grid-container > header{
+    z-index: 1;
     grid-area: 1 / 2 / span 1 / span 3;
-    background-color: #a193a7;
-    -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
-    box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #eaeaea;
+    color: #7900ac;
+    box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
+    -moz-box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
 }
 
 .grid-container > #sidebar{
@@ -23,10 +29,11 @@
     justify-content: top;
     background-color: white;
     padding: 0px;
-    -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
-    box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
+    -moz-box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
 }
+
 #logoP{
     width: 4rem;
     height: 4rem;
@@ -40,41 +47,22 @@
     padding: 0.7rem ;
 }
 
-#headerTitulo{
-    display: flex;
-    justify-content: space-between;
-    align-items: bottom;
-}
-
-.grid-container > div{
-    background-color: lightskyblue;
-    font-size: 20px;
-    text-align: center;
-    padding: 20px; /*margem aplicada ao exterior do conteudo do grid*/
-}
-
 .grid-container > #content{
-    margin-top: 0.1rem;
+    z-index: 1;
     grid-area: 2 / 2 / span 10 / span 3;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #82C0CC ;
+    background-color: #ffffff ;
     padding: 20px;
     column-gap: 10px;
-    -webkit-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
-    box-shadow: 7px 3px 26px -8px rgba(0,0,0,0.75);
+    box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
+    -moz-box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
 }
 
-#content > div{
-    background-color: coral;
-    border: 1px solid black;
-    padding: 20px;
-    margin: 1rem;
-}
-.bg-light{
+nav{
+    
     margin-top: 140px;
 }
+
 #titulo{
     text-align: left;
     font-family: 'Bebas Neue', cursive;

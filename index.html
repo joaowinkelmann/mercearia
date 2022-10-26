@@ -20,7 +20,7 @@
 
 <div id="app">
     <div class="container-fluid p-5 grid-container">
-        <header id="headerTitulo">
+        <header>
           <div>
             <h1 id="titulo">Delícias da Vovó</h1>
           </div>
@@ -33,9 +33,8 @@
                 <img id="logoP" src="https://cdn-icons-png.flaticon.com/512/561/561042.png?w=740&t=st=1666727596~exp=1666728196~hmac=833243041d1b46d09cfb74ebadb6266c3fc3750205284ac8ca853ad9a0f0d055" alt="">
             </div>
             <nav class="navbar bg-light">
-                <div class="container-fluid">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item-active">
                       <router-link to="/">Dashboard</router-link>
                     </li>
                     <li class="nav-item">
@@ -48,7 +47,6 @@
                       <router-link to="/despesas">Despesas</router-link>
                     </li>
                   </ul>
-                </div>
               </nav>
         </div>
         <div class="container-fluid" id="content">
