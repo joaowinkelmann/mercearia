@@ -52,7 +52,6 @@
     grid-area: 2 / 2 / span 10 / span 3;
     background-color: #ffffff ;
     padding: 20px;
-    column-gap: 10px;
     box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
     -webkit-box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
     -moz-box-shadow: 8px 18px 37px -9px rgba(0,0,0,0.39);
@@ -66,4 +65,9 @@ nav{
 #titulo{
     text-align: left;
     font-family: 'Bebas Neue', cursive;
+}
+
+#mes-select{
+    width: 20rem;
+
 }

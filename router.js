@@ -1,8 +1,28 @@
 
-          const Dashboard = { template: 'Dashboard' }
-          const Planejamento = { template: 'Planejamento'}
-          const Produtos = { template: 'Produtos'}
-          const Despesas = { template: 'Aqui serão mostradas as despesas' }
+          const Dashboard = { template: 
+            'Dashboard'
+           }
+
+          const Planejamento = { template:
+             'Planejamento'
+          }
+          
+          const Produtos = { template:
+             'Produtos'
+            }
+          
+          const Despesas = { 
+            template: `
+            <h3>Despesas</h3>
+            <select class="form-select" id="mes-select">
+              <option selected>Selecione o mês referente aos dados</option>
+              <option value="1">Janeiro</option>
+              <option value="2">Fevereiro</option>
+              <option value="3">Março</option>
+            </select>
+            <input class="input" type="text" placeholder="Insira a despesa">
+            `
+           }
           
           const routes = [
             { path: '/', component: Dashboard },
