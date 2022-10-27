@@ -9,7 +9,26 @@
           const Planejamento = { 
             template:  `
              <h3>Planejamento</h3>
-
+             <div id="container-campos-produtos">
+             <select class="form-select" id="mes-select">
+                <option selected>Mês que deseja inserir o planejamento</option>
+                <option value="1">Janeiro</option>
+                <option value="2">Fevereiro</option>
+                <option value="3">Março</option>
+                <option value="4">Abril</option>
+                <option value="5">Maio</option>
+                <option value="6">Junho</option>
+                <option value="7">julho</option>
+                <option value="8">Agosto</option>
+                <option value="9">Setembro</option>
+                <option value="10">outubro</option>
+                <option value="11">Novembro</option>
+                <option value="12">Dezembro</option>
+              </select>
+             <h4>Bolos</h4>
+             <input class="form-control" type="text" placeholder="Insira a quantidade de BOLOS que deseja vender" id="meta-bolos">
+             <h4>Cupcakes</h4>
+             <input class="form-control" type="text" placeholder="Insira a quantidade de CUPCAKES que deseja vender" id="meta-cupcakes">
              `
           }
           

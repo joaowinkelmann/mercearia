@@ -75,7 +75,10 @@ nav{
 }
 
 #mes-select{
-    width: 20rem;
+    width: 22rem;
+    background-color: rgb(170, 176, 236);
+    font-style: arial;
+    font-weight: bold;
 }
 
 #container-campos-desp{
