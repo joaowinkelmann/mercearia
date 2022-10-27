@@ -9,7 +9,7 @@
           const Planejamento = { 
             template:  `
              <h3>Planejamento</h3>
-             <div id="container-campos-produtos">
+             <div id="container-campos-planejamento">
              <select class="form-select" id="mes-select">
                 <option selected>Mês que deseja inserir o planejamento</option>
                 <option value="1">Janeiro</option>
