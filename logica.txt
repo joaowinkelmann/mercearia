@@ -24,3 +24,5 @@ DESPESAS:
     Impostos: (???) R$ 900,00
     funcionario: R$ 2.500,00
     
+-Gasto total em Março:
+    

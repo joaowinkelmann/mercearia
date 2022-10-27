@@ -67,6 +67,13 @@ nav{
     font-family: 'Bebas Neue', cursive;
 }
 
+#header-user{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 18px;
+}
+
 #mes-select{
     width: 20rem;
 

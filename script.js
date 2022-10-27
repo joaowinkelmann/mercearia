@@ -1,3 +1,6 @@
+// Exemplo analisado:
+// https://github.com/mdn/dom-examples/blob/main/to-do-notifications/scripts/todo.js
+
 if(!indexedDB){
     window.alert("O seu navegador não suporta IndexedDB");
 }
