@@ -17,7 +17,8 @@
                 <option value="1">Bolo</option>
                 <option value="2">Cupcake</option>
               </select>
-               
+              <input class="form-control" type="text" placeholder="Insira a quantidade vendida" id="quantidade-vendida">
+              <button type="button" class="btn btn-primary" id="despesa-enviar" onclick="enviaDespesa()">Enviar</button>
             `
             }
           
