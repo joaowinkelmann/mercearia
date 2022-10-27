@@ -5,14 +5,13 @@ Caixa inicial: R$ 2.389,32
 --Bolos: (valor do bolo no varejo: R$ 20,00)
     Gasto: R$ 4.356,00
     
-    Recebido: R$ 2.876,57 (cash) + R$ 14.756,32 (cartão)
-    Total Recebido: R$ 17.632,89
-
     Lucro bruto: R$ 17.632,89 - 4.356,00 => R$ 13.276,89
 
 
 DESPESAS:
 -Variáveis:
+    Mantimentos (bolos): R$4.356,00
+    Salário avó: R$ 3.566,00
     Energia: R$ 2.879,00
     Gasolina: R$ 659,54
     agua: R$ 150,00
@@ -25,4 +24,8 @@ DESPESAS:
     funcionario: R$ 2.500,00
     
 -Gasto total em Março:
-    
+    4356+3566+2879+659,54+150+4561+99+600+900+2500 => R$ 20.270,54
+
+GANHOS:
+    Recebido: R$ 2.876,57 (cash) + R$ 14.756,32 (cartão)
+    Total Recebido: R$ 17.632,89
