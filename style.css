@@ -89,6 +89,7 @@ nav{
     row-gap: 10px;
 }
 #container-campos-produtos{
+    width: 26rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -96,6 +97,7 @@ nav{
     row-gap: 10px;
 }
 #container-campos-planejamento{
+    width: 26rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
