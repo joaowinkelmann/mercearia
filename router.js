@@ -16,6 +16,7 @@
           const Produtos = { 
               template: `
               <h3>Produtos</h3>
+              <div id="container-campos-produtos">
               <select class="form-select" id="product-select">
                 <option selected>Selecione o produto</option>
                 <option value="1">Bolo</option>
