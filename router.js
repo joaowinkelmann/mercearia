@@ -1,12 +1,16 @@
 
-          const Dashboard = { template: `
+          const Dashboard = { 
+            template: `
             <h3>Dashboard</h3>
-          `
-          }
 
-          const Planejamento = { template: `
-            <h3>Planejamento</h3>
-          `
+            `
+           }
+
+          const Planejamento = { 
+            template:  `
+             <h3>Planejamento</h3>
+
+             `
           }
           
           const Produtos = { 
