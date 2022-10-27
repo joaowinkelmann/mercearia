@@ -37,7 +37,8 @@
               <option value="11">Novembro</option>
               <option value="12">Dezembro</option>
             </select>
-            <input class="form-control" type="text" placeholder="Insira a despesa" id="despesa-input">
+            <input class="form-control" type="text" placeholder="Descreva a despesa" id="despesa-nome">
+            <input class="form-control" type="text" placeholder="Insira o valor da despesa" id="despesa-valor">
             <button type="button" class="btn btn-primary" id="despesa-enviar" onclick="enviaDespesa()">Enviar</button>
             `
            }
