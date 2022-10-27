@@ -29,6 +29,7 @@
              <input class="form-control" type="text" placeholder="Insira a quantidade de BOLOS que deseja vender" id="meta-bolos">
              <h4>Cupcakes</h4>
              <input class="form-control" type="text" placeholder="Insira a quantidade de CUPCAKES que deseja vender" id="meta-cupcakes">
+             <button type="button" class="btn btn-primary" id="planejamento-enviar" onclick="enviaPlanejamento()">Enviar</button>
              `
           }
           
@@ -42,7 +43,7 @@
                 <option value="2">Cupcake</option>
               </select>
               <input class="form-control" type="text" placeholder="Insira a quantidade vendida" id="quantidade-vendida">
-              <button type="button" class="btn btn-primary" id="despesa-enviar" onclick="enviaDespesa()">Enviar</button>
+              <button type="button" class="btn btn-primary" id="produto-enviar" onclick="enviaProduto()">Enviar</button>
             `
             }
           
