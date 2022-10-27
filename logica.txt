@@ -29,3 +29,7 @@ DESPESAS:
 GANHOS:
     Recebido: R$ 2.876,57 (cash) + R$ 14.756,32 (cartão)
     Total Recebido: R$ 17.632,89
+
+
+LUCRO LÍQUIDO:
+    (Receita total - Custo total) = R$ 17.632,89 - R$ 20.270,54 => R$ −2.637,65
