@@ -13,7 +13,7 @@ function enviaDespesa(){
     console.log(desepesaNome.value);
     console.log(despesaValor.value);
 
-    const DBOpenRequest = window.indexedDB.open('despesa', 1);
+    const DBOpenRequest = window.indexedDB.open('despesa', 3);
 
     DBOpenRequest.onerror = (event) => {
         console.log('Error loading database.');
@@ -22,6 +22,7 @@ function enviaDespesa(){
       DBOpenRequest.onsuccess = (event) => {
         console.log('Database initialised.');
         db = DBOpenRequest.result;
+
       };
 
       DBOpenRequest.onupgradeneeded = (event) =>{
@@ -31,12 +32,6 @@ function enviaDespesa(){
             console.log("Erro ao carregar a database");
         }
 
-        const objectStore = db.createObjectStore('despesa', { keyPath: `${desepesaNome.value}` });
-
-        objectStore.createIndex('mes', 'mes', {unique: false});
-        objectStore.createIndex('valor', 'valor', {unique: false});
-
-        console.log("O objeto foi criado.");
       }
 
 
