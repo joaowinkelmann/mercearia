@@ -1,4 +1,4 @@
-let outDB;
+let outDB = document.querySelector('#outDB');
 let db;
 
 const createDB = () => {
