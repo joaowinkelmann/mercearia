@@ -2,6 +2,61 @@
           const Dashboard = { 
             template: `
             <h3>Dashboard</h3>
+            <select class="form-select" id="mes-select">
+              <option selected>Mês a ser analisado</option>
+              <option value="1">Janeiro</option>
+              <option value="2">Fevereiro</option>
+              <option value="3">Março</option>
+              <option value="4">Abril</option>
+              <option value="5">Maio</option>
+              <option value="6">Junho</option>
+              <option value="7">julho</option>
+              <option value="8">Agosto</option>
+              <option value="9">Setembro</option>
+              <option value="10">outubro</option>
+              <option value="11">Novembro</option>
+              <option value="12">Dezembro</option>
+            </select>
+            <h4>Ganhos</h4>
+            <hr>
+            <div class="row">
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Lucro bruto</h5>
+                  <p class="card-text" id="val-lucro-br"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Lucro líquido</h5>
+                  <p class="card-text" id="val-lucro-li"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <h4>Despesas</h4>
+            <hr>
+            <div class="row">
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Fixas</h5>
+                  <p class="card-text" id="val-desp-fixas"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Variáveis</h5>
+                  <p class="card-text" id="val-desp-var"></p>
+                </div>
+              </div>
+            </div>
+          </div>
 
             `
            }

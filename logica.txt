@@ -3,9 +3,6 @@
 Caixa inicial: R$ 2.389,32
 
 --Bolos: (valor do bolo no varejo: R$ 20,00)
-    Gasto: R$ 4.356,00
-    
-    Lucro bruto: R$ 17.632,89 - 4.356,00 => R$ 13.276,89
 
 
 DESPESAS:
