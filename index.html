@@ -13,8 +13,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="bancoteste.js"></script>
     <script src="script.js"></script>
-    <script src="https://unpkg.com/vue@3"></script>
-    <script src="https://unpkg.com/vue-router@4"></script>
+    <script src="https://unpkg.com/vue@3.2.41"></script>
+    <script src="https://unpkg.com/vue-router@4.1.6"></script>
+    <!-- <script src="vue-router.js"></script>
+    <script src="vue.js"></script> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
@@ -39,16 +41,16 @@
             <nav class="navbar bg-light" id="nav-sidebar">
                   <ul class="navbar-nav">
                     <li class="nav-item-active btn-nav">
-                      <router-link to="/">Dashboard</router-link>
+                      <router-link class="btn-nav-txt" to="/">Dashboard</router-link>
                     </li>
                     <li class="nav-item btn-nav">
-                      <router-link to="/planejamento">Planejamento</router-link>
+                      <router-link class="btn-nav-txt" to="/planejamento">Planejamento</router-link>
                     </li>
                     <li class="nav-item btn-nav">
-                      <router-link to="/produtos">Produtos</router-link>
+                      <router-link class="btn-nav-txt" to="/produtos">Produtos</router-link>
                     </li> 
                     <li class="nav-item btn-nav">
-                      <router-link to="/despesas">Despesas</router-link>
+                      <router-link class="btn-nav-txt" to="/despesas">Despesas</router-link>
                     </li>
                   </ul>
               </nav>

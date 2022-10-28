@@ -1,5 +1,6 @@
 // Exemplo analisado:
 // https://github.com/mdn/dom-examples/blob/main/to-do-notifications/scripts/todo.js
+
 class Produto{
   constructor(mes, nome, valor, quantidade){
     this.mes = mes;
