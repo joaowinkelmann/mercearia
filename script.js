@@ -1,5 +1,17 @@
 // Exemplo analisado:
 // https://github.com/mdn/dom-examples/blob/main/to-do-notifications/scripts/todo.js
+class Produto{
+  constructor(mes, nome, valor, quantidade){
+    this.mes = mes;
+    this.nome = nome;
+    this.valor = valor;
+    this.quantidade = quantidade;
+  }
+}
+
+function enviaProduto(){
+  let novoProduto = new Produto(document.querySelector("#mes-select"), document.querySelector("#nome-produto"), document.querySelector("#valor-produto"), documnet.querySelector("#quantidade-vendida"))
+}
 
 if(!indexedDB){
     window.alert("O seu navegador não suporta IndexedDB");

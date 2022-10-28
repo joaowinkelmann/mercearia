@@ -97,6 +97,8 @@
                 <option value="1">Bolo</option>
                 <option value="2">Cupcake</option>
               </select>
+              <input class="form-control" type="text" placeholder="Insira o nome do produto" id="nome-produto">
+              <input class="form-control" type="text" placeholder="Insira o valor do produto" id="valor-produto">
               <input class="form-control" type="text" placeholder="Insira a quantidade vendida" id="quantidade-vendida">
               <button type="button" class="btn btn-primary" id="produto-enviar" onclick="enviaProduto()">Enviar</button>
             `
