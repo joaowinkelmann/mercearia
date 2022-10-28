@@ -98,7 +98,7 @@
                 </select>
                 <input class="form-control" type="text" placeholder="Insira o nome do produto" id="nome-produto" style="border: 1px solid black">
                 <input class="form-control" type="text" placeholder="Insira o valor do produto" id="valor-produto" style="border: 1px solid black">
-                <input class="form-control" type="text" placeholder="Insira a quantidade vendida" id="quantidade-vendida" style="border: 1px solid black">
+                <input class="form-control" type="text" placeholder="Insira a quantidade em estoque" id="quantidade-estoque" style="border: 1px solid black">
                 <button type="button" class="btn btn-primary" id="produto-enviar" onclick="enviaProduto()">Enviar</button>
             `
             }
