@@ -91,14 +91,14 @@
               template: `
                 <h3>Produtos</h3>
                 <div id="container-campos-produtos">
-                <select class="form-select" id="product-select">
-                  <option selected>Selecione o produto</option>
+                <select class="form-select" id="product-select" style="border: 1px solid black">
+                  <option selected >Selecione o produto </option>
                   <option value="1">Bolo</option>
                   <option value="2">Cupcake</option>
                 </select>
-                <input class="form-control" type="text" placeholder="Insira o nome do produto" id="nome-produto">
-                <input class="form-control" type="text" placeholder="Insira o valor do produto" id="valor-produto">
-                <input class="form-control" type="text" placeholder="Insira a quantidade vendida" id="quantidade-vendida">
+                <input class="form-control" type="text" placeholder="Insira o nome do produto" id="nome-produto" style="border: 1px solid black">
+                <input class="form-control" type="text" placeholder="Insira o valor do produto" id="valor-produto" style="border: 1px solid black">
+                <input class="form-control" type="text" placeholder="Insira a quantidade vendida" id="quantidade-vendida" style="border: 1px solid black">
                 <button type="button" class="btn btn-primary" id="produto-enviar" onclick="enviaProduto()">Enviar</button>
             `
             }
