@@ -122,6 +122,7 @@
                   <option value="11">Novembro</option>
                   <option value="12">Dezembro</option>
                 </select>
+                </div>
                 <hr>
                 <h4>Variáveis</h4>
                 <div class="container">
@@ -140,20 +141,20 @@
                   </div>
                 <div class="row">
                   <div class="col">
-                    <div>
+                    <div class="container-flex mt-2">
                       <p>Insira os gastos com gasolina:</p>
                       <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-gasolina">
                     </div>
                   </div>
-                  <div class="col">
-                    <div>
+                  <div class="container-flex col">
+                    <div class="mt-2">
                       <p>Insira os gastos com mantimentos:</p>
                       <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-mantimentos">
                     </div>
                   </div>
                 </div>
                 </div>
-                <button type="button" class="btn btn-primary" id="despesa-enviar" onclick="enviaDespesa()">Enviar</button>
+                <button type="button" class="btn btn-primary mt-2" id="despesa-enviar" onclick="enviaDespesa()">Enviar</button>
             `
            }
           
