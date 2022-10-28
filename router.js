@@ -91,7 +91,7 @@
               template: `
                 <h3>Produtos</h3>
                 <div id="container-campos-produtos">
-                <select class="form-select" id="product-select" style="border: 1px solid black">
+                <select class="form-select" id="product-select" style="border: 1px solid black"  style="background-color:  lightgrey">
                   <option selected >Selecione o produto </option>
                   <option value="1">Bolo</option>
                   <option value="2">Cupcake</option>
