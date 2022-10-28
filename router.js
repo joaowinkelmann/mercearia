@@ -227,7 +227,7 @@
             { path: '/planejamento', component: Planejamento },
             { path: '/produtos', component: Produtos },
             { path: '/despesas', component: Despesas },
-            { path: '/despesas', component: Despesas_fixas},
+            { path: '/Despesas_fixas', component: Despesas_fixas},
           ]
           
           const router = VueRouter.createRouter({
