@@ -1,7 +1,6 @@
 
           const Dashboard = { 
             template: `
-            <div class="wrapper-conteudo">
               <h3>Dashboard</h3>
               <select class="form-select" id="mes-select">
                 <option selected>Mês a ser analisado</option>
@@ -58,13 +57,11 @@
                 </div>
               </div>
               </div>
-            </div>
             `
            }
 
           const Planejamento = { 
             template:  `
-              <div class="wrapper-conteudo">
                <h3>Planejamento</h3>
                <div id="container-campos-planejamento">
                <select class="form-select" id="mes-select">
@@ -87,13 +84,11 @@
                <h4>Cupcakes</h4>
                <input class="form-control" type="text" placeholder="Insira a quantidade de CUPCAKES que deseja vender" id="meta-cupcakes">
                <button type="button" class="btn btn-primary" id="planejamento-enviar" onclick="enviaPlanejamento()">Enviar</button>
-            </div>
              `
           }
           
           const Produtos = { 
               template: `
-              <div class="wrapper-conteudo">
                 <h3>Produtos</h3>
                 <div id="container-campos-produtos">
                 <select class="form-select" id="product-select">
@@ -105,13 +100,11 @@
                 <input class="form-control" type="text" placeholder="Insira o valor do produto" id="valor-produto">
                 <input class="form-control" type="text" placeholder="Insira a quantidade vendida" id="quantidade-vendida">
                 <button type="button" class="btn btn-primary" id="produto-enviar" onclick="enviaProduto()">Enviar</button>
-              </div>
             `
             }
           
           const Despesas = { 
             template: `
-            <div class="wrapper-conteudo">
               <h3>Despesas</h3>
               <div id="container-campos-desp">
                 <select class="form-select" id="mes-select">
@@ -161,7 +154,6 @@
                 </div>
                 </div>
                 <button type="button" class="btn btn-primary" id="despesa-enviar" onclick="enviaDespesa()">Enviar</button>
-            </div>
             `
            }
           
