@@ -80,9 +80,9 @@
                   <option value="12">Dezembro</option>
                 </select>
                <h4>Bolos</h4>
-               <input class="form-control" type="text" placeholder="Insira a quantidade de BOLOS que deseja vender" id="meta-bolos">
+               <input class="form-control" type="text" placeholder="Insira a quantidade de BOLOS que deseja vender" id="meta-bolos" style="border: 1px solid black" >
                <h4>Cupcakes</h4>
-               <input class="form-control" type="text" placeholder="Insira a quantidade de CUPCAKES que deseja vender" id="meta-cupcakes">
+               <input class="form-control" type="text" placeholder="Insira a quantidade de CUPCAKES que deseja vender" id="meta-cupcakes" style="border: 1px solid black" >
                <button type="button" class="btn btn-primary" id="planejamento-enviar" onclick="enviaPlanejamento()">Enviar</button>
              `
           }
