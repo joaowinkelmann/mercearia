@@ -157,12 +157,77 @@
                 <button type="button" class="btn btn-primary mt-2" id="despesa-enviar" onclick="enviaDespesa()">Enviar</button>
             `
            }
+           const Despesas_fixas = { 
+            template: `
+              <h3>Despesas</h3>
+              <div id="container-campos-desp">
+                <select class="form-select" id="mes-select" style="border: 1px solid black">
+                  <option selected>Selecione o mês referente aos dados</option>
+                  <option value="1">Janeiro</option>
+                  <option value="2">Fevereiro</option>
+                  <option value="3">Março</option>
+                  <option value="4">Abril</option>
+                  <option value="5">Maio</option>
+                  <option value="6">Junho</option>
+                  <option value="7">julho</option>
+                  <option value="8">Agosto</option>
+                  <option value="9">Setembro</option>
+                  <option value="10">outubro</option>
+                  <option value="11">Novembro</option>
+                  <option value="12">Dezembro</option>
+                </select>
+                </div>
+                <hr>
+                <h4>Fixas</h4>
+                <div class="container-fixas">
+                <div class="row">
+                  <div class="col">
+                    <div>
+                      <p >Insira os gastos com aluguel:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-aluguel" style="border: 1px solid black">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div>
+                      <p>Insira os gastos com internet:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-internet" style="border: 1px solid black">
+                    </div>
+                  </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="container-flex mt-2">
+                      <p>Insira os gastos com contabilidade:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-contabilidade" style="border: 1px solid black">
+                    </div>
+                  </div>
+                  <div class="container-flex col">
+                    <div class="mt-2">
+                      <p>Insira os gastos com impostos:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-impostos" style="border: 1px solid black">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="container-flex mt-2">
+                      <p>Insira os gastos com funcionario:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-funcionario" style="border: 1px solid black">
+                    </div>
+                </div>
+                </div>
+                <button type="button" class="btn btn-primary mt-2" id="-enviar" onclick="enviaDespesaFixa()">Enviar</button>
+            `
+           }
+           
+           
+           
           
           const routes = [
             { path: '/', component: Dashboard },
             { path: '/planejamento', component: Planejamento },
             { path: '/produtos', component: Produtos },
             { path: '/despesas', component: Despesas },
+            { path: '/despesas', component: Despesas_fixas},
           ]
           
           const router = VueRouter.createRouter({
