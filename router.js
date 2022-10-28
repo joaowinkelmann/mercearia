@@ -184,26 +184,26 @@
                   <div class="col">
                     <div>
                       <p >Insira os gastos com aluguel:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-aluguel" style="border: 1px solid black">
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-fix-aluguel" style="border: 1px solid black">
                     </div>
                   </div>
                   <div class="col">
                     <div>
                       <p>Insira os gastos com internet:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-internet" style="border: 1px solid black">
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-fix-internet" style="border: 1px solid black">
                     </div>
                   </div>
                 <div class="row">
                   <div class="col">
                     <div class="container-flex mt-2">
                       <p>Insira os gastos com contabilidade:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-contabilidade" style="border: 1px solid black">
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-fix-contabilidade" style="border: 1px solid black">
                     </div>
                   </div>
                   <div class="container-flex col">
                     <div class="mt-2">
                       <p>Insira os gastos com impostos:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-impostos" style="border: 1px solid black">
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-fix-impostos" style="border: 1px solid black">
                     </div>
                   </div>
                 </div>
@@ -211,7 +211,7 @@
                   <div class="col">
                     <div class="container-flex mt-2">
                       <p>Insira os gastos com funcionario:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-funcionario" style="border: 1px solid black">
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-fix-funcionario" style="border: 1px solid black">
                     </div>
                 </div>
                 </div>
