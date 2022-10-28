@@ -21,23 +21,23 @@
               <h4>Ganhos</h4>
               <hr>
               <div class="row">
-              <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Lucro bruto</h5>
-                    <p class="card-text" id="val-lucro-br"></p>
+                <div class="col-sm-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Lucro bruto</h5>
+                      <p class="card-text" id="val-lucro-br"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Lucro líquido</h5>
+                      <p class="card-text" id="val-lucro-li"></p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Lucro líquido</h5>
-                    <p class="card-text" id="val-lucro-li"></p>
-                  </div>
-                </div>
-              </div>
-                        </div>
               <h4>Despesas</h4>
               <hr>
               <div class="row">
@@ -57,7 +57,7 @@
                   </div>
                 </div>
               </div>
-                        </div>
+              </div>
             </div>
             `
            }
@@ -134,21 +134,29 @@
                 <div class="container">
                 <div class="row">
                   <div class="col">
-                    <p>Insira os gastos com água:</p>
-                    <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-agua">
+                    <div>
+                      <p>Insira os gastos com água:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-agua">
+                    </div>
                   </div>
                   <div class="col">
-                    <p>Insira os gastos com energia:</p>
-                    <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-agua">
+                    <div>
+                      <p>Insira os gastos com energia:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-energia">
+                    </div>
                   </div>
                 <div class="row">
                   <div class="col">
-                    <p>Insira os gastos com gasolina:</p>
-                    <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-gasolina">
+                    <div>
+                      <p>Insira os gastos com gasolina:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-gasolina">
+                    </div>
                   </div>
                   <div class="col">
-                    <p>Insira os gastos com mantimentos:</p>
-                    <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-mantimentos">
+                    <div>
+                      <p>Insira os gastos com mantimentos:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-mantimentos">
+                    </div>
                   </div>
                 </div>
                 </div>

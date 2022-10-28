@@ -1,6 +1,19 @@
 // Exemplo analisado:
 // https://github.com/mdn/dom-examples/blob/main/to-do-notifications/scripts/todo.js
 
+class Despesa{
+  constructor(mes, tipo, nome, valor){
+    this.mes = mes;
+    this.tipo = tipo;
+    this.nome = nome;
+    this.valor = valor;
+  }
+}
+
+function enviaDespesa(){
+  let novaDespesa = new Despesa(document.querySelector("#mes-select"), document.querySelector())
+}
+
 class Produto{
   constructor(mes, nome, valor, quantidade){
     this.mes = mes;
@@ -46,7 +59,5 @@ function enviaDespesa(){
         }
 
       }
-
-
 }
 
