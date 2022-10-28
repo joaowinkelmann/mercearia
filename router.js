@@ -107,7 +107,7 @@
             template: `
               <h3>Despesas</h3>
               <div id="container-campos-desp">
-                <select class="form-select" id="mes-select">
+                <select class="form-select" id="mes-select" style="border: 1px solid black">
                   <option selected>Selecione o mês referente aos dados</option>
                   <option value="1">Janeiro</option>
                   <option value="2">Fevereiro</option>
@@ -129,27 +129,27 @@
                 <div class="row">
                   <div class="col">
                     <div>
-                      <p>Insira os gastos com água:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-agua">
+                      <p >Insira os gastos com água:</p>
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-agua" style="border: 1px solid black">
                     </div>
                   </div>
                   <div class="col">
                     <div>
                       <p>Insira os gastos com energia:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-energia">
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-energia" style="border: 1px solid black">
                     </div>
                   </div>
                 <div class="row">
                   <div class="col">
                     <div class="container-flex mt-2">
                       <p>Insira os gastos com gasolina:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-gasolina">
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-gasolina" style="border: 1px solid black">
                     </div>
                   </div>
                   <div class="container-flex col">
                     <div class="mt-2">
                       <p>Insira os gastos com mantimentos:</p>
-                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-mantimentos">
+                      <input class="form-control" type="text" placeholder="R$ 100,00" id="despesa-var-mantimentos" style="border: 1px solid black">
                     </div>
                   </div>
                 </div>
