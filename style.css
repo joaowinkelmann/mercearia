@@ -131,3 +131,6 @@ nav{
 .btn-nav-txt:hover{
     color: lightgrey;
 }
+.card{
+    border: 1px solid black;
+}
